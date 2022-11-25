@@ -9,7 +9,7 @@ Clonando diretorio do GitHub para servidor local:
 	cd "nome da pasta"
  - Com o diretório baixado e com a pasta selecionada no Git podemos fazer as alterações necessárias e sinconiza-las com nosso GitHub
 
-Atualizando pasta local com servidor:
+Atualizando e sinconizando pasta local com servidor:
 Para atualizar antes precisamos nos certificar de duas coisas:
 	- Nosso arquivo deve estar salvo
 	- O arquivo tem que ser recente, e o último commit deve estar sincronizado com o GitHub, se não os arquivos deverão ser clonados novamente e reajeitados para forma mais satisfatória.
@@ -17,5 +17,7 @@ Para atualizar antes precisamos nos certificar de duas coisas:
 	
 	git add . ou *
 	git commit -m "comentário"
-	git remote add origin main
-	git remove -v
+	git push origin main
+	Podemos usar o "git status" para verificar como estão os arquivos
+
+	Com tudo realizado os arquivos modificados serão enviados ao seu repositório do GiHub.
