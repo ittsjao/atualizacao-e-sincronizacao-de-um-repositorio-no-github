@@ -4,4 +4,5 @@ Esse repositório foi criado para o meu primeiro Desafio Prático da DIO, nele i
 
 ## Pré-Requisitos
 [Git](https://git-scm.com/download/win) Ter o app instalado na sua máquina
+
 [GitHub](https://github.com/) Ter conta cadastrada
